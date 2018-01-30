@@ -19,3 +19,8 @@ forge "https://forgeapi.puppetlabs.com"
  mod 'testrepo',
    :git => 'https://github.com/nshamsbeigi/testrepo.git',
    :branch => 'master'
+
+# A module from a git branch/tag
+ mod 'apache',
+   :git => 'https://github.com/nshamsbeigi/apache.git',
+   :branch => 'master'
